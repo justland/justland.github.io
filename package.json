@@ -1,6 +1,6 @@
 {
 	"private": true,
-	"packageManager": "pnpm@11.25.0",
+	"packageManager": "pnpm@12.16.1",
 	"scripts": {
 		"ar": "pnpm --filter ./astro-react",
 		"as": "pnpm --filter ./astro-solid",
