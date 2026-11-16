@@ -1,7 +1,6 @@
 {
 	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
-	"extends": ["github>unional/renovate-preset"],
-	"//": "The published preset is currently `config:base` + `:preserveSemverRanges` only, with no automerge policy — which is why the ten open Renovate PRs (oldest 2023) never landed. The rules below are the org baseline, inlined here until unional/renovate-preset carries them upstream; delete this block once it does.",
+	"extends": ["github>repobuddy/renovate-preset"],
 	"minimumReleaseAge": "3 days",
 	"platformAutomerge": true,
 	"rebaseWhen": "behind-base-branch",
@@ -13,11 +12,6 @@
 		{
 			"matchDepTypes": ["devDependencies"],
 			"automerge": true
-		},
-		{
-			"matchUpdateTypes": ["major"],
-			"automerge": false,
-			"additionalBranchPrefix": "major-"
 		}
 	],
 	"vulnerabilityAlerts": {
