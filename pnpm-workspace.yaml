@@ -32,3 +32,5 @@ overrides:
 minimumReleaseAgeExclude:
   # Renovate security update: postcss@8.5.23
   - postcss@8.5.23
+  # Renovate security update: next@15.5.28
+  - next@15.5.28
