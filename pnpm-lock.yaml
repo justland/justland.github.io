@@ -200,8 +200,8 @@ importers:
         specifier: ^7.0.0
         version: 7.3.0
       '@nanostores/react':
-        specifier: ^0.5.0
-        version: 0.5.0(nanostores@0.8.1)(react@18.3.1)
+        specifier: ^0.8.0
+        version: 0.8.4(nanostores@0.8.1)(react@18.3.1)
       '@types/react':
         specifier: ^18.0.21
         version: 18.3.31
@@ -1755,11 +1755,11 @@ packages:
   '@mdx-js/util@1.6.22':
     resolution: {integrity: sha512-H1rQc1ZOHANWBvPcW+JpGwr+juXSxM8Q8YCkm3GhZd8REu1fHR3z99CErO1p9pkcfcxZnMdIZdIsXkOHY0NilA==}
 
-  '@nanostores/react@0.5.0':
-    resolution: {integrity: sha512-1i+VhIwK+R51RXmnLul/C7a2WYkBF17/KsHsPzIboMXVjKfUvPbViZrwaeiqLFyHFUPgylq2//VkPqx3wmiCeg==}
-    engines: {node: ^16.0.0 || >=18.0.0}
+  '@nanostores/react@0.8.4':
+    resolution: {integrity: sha512-EciHSzDXg7GmGODjegGG1VldPEinbAK+12/Uz5+MAdHmxf082Rl6eXqKFxAAu4pZAcr5dNTpv6wMfEe7XacjkQ==}
+    engines: {node: ^18.0.0 || >=20.0.0}
     peerDependencies:
-      nanostores: ^0.8.0
+      nanostores: ^0.9.0 || ^0.10.0 || ^0.11.0
       react: '>=18.0.0'
 
   '@next/env@13.3.1':
@@ -8758,11 +8758,10 @@ snapshots:
 
   '@mdx-js/util@1.6.22': {}
 
-  '@nanostores/react@0.5.0(nanostores@0.8.1)(react@18.3.1)':
+  '@nanostores/react@0.8.4(nanostores@0.8.1)(react@18.3.1)':
     dependencies:
       nanostores: 0.8.1
       react: 18.3.1
-      use-sync-external-store: 1.6.0(react@18.3.1)
 
   '@next/env@13.3.1': {}
 
