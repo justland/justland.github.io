@@ -34,3 +34,5 @@ minimumReleaseAgeExclude:
   - postcss@8.5.23
   # Renovate security update: next@15.5.28
   - next@15.5.28
+  # Renovate security update: astro@7.4.5
+  - astro@7.4.5
