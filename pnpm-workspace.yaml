@@ -28,9 +28,11 @@ allowBuilds:
 # ValidationError. Pin webpack to the line Docusaurus 2.4 was released against.
 # Drop this override when the docs site moves to Docusaurus 3 (see #95).
 overrides:
-  webpack: ~5.88.0
+  webpack: ~5.113.0
 minimumReleaseAgeExclude:
   # Renovate security update: postcss@8.5.23
   - postcss@8.5.23
   # Renovate security update: next@15.5.28
   - next@15.5.28
+  # Renovate security update: webpack@5.113.0
+  - webpack@5.113.0
