@@ -12,6 +12,6 @@
 		"typecheck": "astro check"
 	},
 	"dependencies": {
-		"astro": "^2.3.0"
+		"astro": "^7.0.0"
 	}
 }
