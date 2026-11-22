@@ -285,8 +285,8 @@ importers:
         specifier: 18.3.7
         version: 18.3.7(@types/react@18.3.31)
       autoprefixer:
-        specifier: 10.6.2
-        version: 10.6.2(postcss@8.5.33)
+        specifier: 10.7.0
+        version: 10.7.0(postcss@8.5.33)
       next:
         specifier: 15.5.29
         version: 15.5.29(@babel/core@7.29.7(supports-color@8.1.1))(@types/node@18.19.130)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -2546,8 +2546,8 @@ packages:
     resolution: {integrity: sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==}
     engines: {node: '>= 4.0.0'}
 
-  autoprefixer@10.6.2:
-    resolution: {integrity: sha512-VOw9/yGTGwPPgzFcODtcv6zhEPIeIWkRSe10L2ri2f5vZ7ID7lCt6jZzRF5/ubgOZ+szYydmEF5AYsA5jxX1tA==}
+  autoprefixer@10.7.0:
+    resolution: {integrity: sha512-M4rWhYFPp8YSAfqLDT/wRN9trfe/Z/aZLPxrLQJUQRTPrChss2T+hmgaV5770J52bLuGOMzt6Hjl8tEb6YWv5Q==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
@@ -7932,7 +7932,7 @@ snapshots:
       '@docusaurus/utils-validation': 2.4.3(@docusaurus/types@2.4.3(clean-css@5.3.3)(cssnano@5.1.15(postcss@8.5.33))(csso@4.2.0)(esbuild@0.18.20)(html-minifier-terser@6.1.0)(postcss@8.5.33)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(clean-css@5.3.3)(cssnano@5.1.15(postcss@8.5.33))(csso@4.2.0)(esbuild@0.18.20)(html-minifier-terser@6.1.0)(postcss@8.5.33)(supports-color@8.1.1)
       '@slorber/static-site-generator-webpack-plugin': 4.0.7
       '@svgr/webpack': 6.5.1(supports-color@8.1.1)
-      autoprefixer: 10.6.2(postcss@8.5.33)
+      autoprefixer: 10.7.0(postcss@8.5.33)
       babel-loader: 8.4.1(@babel/core@7.29.7(supports-color@8.1.1))(webpack@5.88.2(clean-css@5.3.3)(cssnano@5.1.15(postcss@8.5.33))(csso@4.2.0)(esbuild@0.18.20)(html-minifier-terser@6.1.0)(postcss@8.5.33))
       babel-plugin-dynamic-import-node: 2.3.3
       boxen: 6.2.1
@@ -9807,10 +9807,10 @@ snapshots:
 
   at-least-node@1.0.0: {}
 
-  autoprefixer@10.6.2(postcss@8.5.33):
+  autoprefixer@10.7.0(postcss@8.5.33):
     dependencies:
       browserslist: 4.29.6
-      caniuse-lite: 1.0.30001810
+      caniuse-lite: 1.0.30001826
       fraction.js: 5.3.4
       picocolors: 1.1.1
       postcss: 8.5.33
@@ -10371,7 +10371,7 @@ snapshots:
 
   cssnano-preset-advanced@5.3.10(postcss@8.5.33):
     dependencies:
-      autoprefixer: 10.6.2(postcss@8.5.33)
+      autoprefixer: 10.7.0(postcss@8.5.33)
       cssnano-preset-default: 5.2.14(postcss@8.5.33)
       postcss: 8.5.33
       postcss-discard-unused: 5.1.0(postcss@8.5.33)
